@@ -60,6 +60,13 @@ Connect:
 ```bash
 ssh -i key.pem ubuntu@<PUBLIC-IP>
 ```
+<img width="1766" height="1125" alt="Launching EC2" src="https://github.com/user-attachments/assets/2e512546-fb41-4fa1-ad9f-190881cbd9f1" />
+
+<img width="1766" height="1125" alt="Launching EC2 -2" src="https://github.com/user-attachments/assets/3e608cea-dd86-4340-8b75-88cb3abc6bf7" />  
+
+<img width="592" height="382" alt="Logging into EC2 through SSH" src="https://github.com/user-attachments/assets/892039b5-069d-499a-8dbb-7ce199e0798b" />
+
+
 
 ## 🔹 2. Install Java
 ```bash
@@ -112,11 +119,11 @@ index.html
 <p>Deployed via CI/CD Pipeline on AWS (ECR + ECS)</p>
 ```
 ## 🔹 6. Create Jenkins Pipeline
-Pipeline stages:
-	•	Build Docker image
-	•	Login to ECR
-	•	Tag image
-	•	Push image
+Pipeline stages:  
+	•	Build Docker image  
+	•	Login to ECR  
+	•	Tag image  
+	•	Push image  
 	•	Deploy to ECS
 
 ## 🔹 7. Create ECR Repository
@@ -189,10 +196,7 @@ http://<ECS-PUBLIC-IP>
 **Issue:** Version mismatch  
 **Solution:** Upgraded Jenkins version
 
-❌ **Docker Permission Error**![Uploading Launching EC2.png…]()
-
-
-  
+❌ **Docker Permission Error**
 ```bash
 permission denied while connecting to docker daemon
 ```
