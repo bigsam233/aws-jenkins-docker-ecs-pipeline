@@ -156,19 +156,19 @@ docker push <ECR_URI>:latest
 ```
 
 ## 🔹 11. Setup ECS (Fargate)
-Create Cluster
+**Create Cluster**  
 	•	html-website-cluster
 
-Create Task Definition
-	•	html-website-task
-	•	CPU: 0.25 vCPU
-	•	Memory: 0.5 GB
-	•	Port: 80
+**Create Task Definition**  
+	•	html-website-task  
+	•	CPU: 0.25 vCPU  
+	•	Memory: 0.5 GB  
+	•	Port: 80  
 
-Create Service
-	•	Desired tasks: 1
-	•	Public IP: ENABLED
-	•	Subnets: Public
+**Create Service**  
+	•	Desired tasks: 1  
+	•	Public IP: ENABLED  
+	•	Subnets: Public  
 	•	Security Group: Allow HTTP (80)
 
 ## 🔹 12. Access Application
@@ -179,6 +179,40 @@ http://<ECS-PUBLIC-IP>
 # ✅ Working Application
 
 
+## 12. Access Application
+❌ **Jenkins Installation Failure**  
+**Issue:** GPG errors on Ubuntu  
+**Solution:** Installed using .deb package  
+
+
+❌ **Plugin Installation Failure**  
+**Issue:** Version mismatch  
+**Solution:** Upgraded Jenkins version
+
+❌ **Docker Permission Error**![Uploading Launching EC2.png…]()
+
+
+  
+```bash
+permission denied while connecting to docker daemon
+```
+Solution:
+```bash
+sudo usermod -aG docker ubuntu
+newgrp docker
+```
+
+## 📬 Contact  
+If you’re a recruiter or hiring manager looking for a Cloud/DevOps Engineer, feel free to connect via email at samuel.tfio@gmail.com
+
+## 🔗 Links
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samuel-tettey-fio/)
+
+
+## Authors
+
+- [@bigsam233](https://www.github.com/bigsam233)
 
 
 
