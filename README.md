@@ -72,7 +72,9 @@ ssh -i key.pem ubuntu@<PUBLIC-IP>
 ```bash
 sudo apt update
 sudo apt install openjdk-17-jdk -y
-```
+```  
+<img width="592" height="71" alt="Installilng Java" src="https://github.com/user-attachments/assets/b0d3e8dc-f53e-4819-ad61-0446022a0a9b" />
+
 ## 🔹 3. Install Jenkins
 ```bash
 wget https://get.jenkins.io/debian-stable/jenkins_2.492.3_all.deb
@@ -88,6 +90,12 @@ Access:
 ```bash
 http://<PUBLIC-IP>:8080
 ```
+
+<img width="592" height="191" alt="Installilng Jenkins" src="https://github.com/user-attachments/assets/0b7a390a-eb5e-4dbf-9d72-8ee607339e75" />
+
+<img width="1753" height="1159" alt="Setting up Jenkins" src="https://github.com/user-attachments/assets/45bf8f2a-27f8-415e-8268-caa1ebe6a917" />
+
+
 
 ## 🔹 4. Install Docker
 ```bash
@@ -107,6 +115,11 @@ Test:
 docker run hello-world
 ```
 
+<img width="592" height="376" alt="Installing Docker" src="https://github.com/user-attachments/assets/5dcd0bce-f412-4497-8990-56c7e4373a8f" />
+
+<img width="592" height="81" alt="Installing Docker 2" src="https://github.com/user-attachments/assets/cd5f9665-cd5f-41cb-99ca-ca9af747c278" />
+
+
 ## 🔹 5. Create Application
 Dockerfile
 ```bash
@@ -118,6 +131,8 @@ index.html
 <h1>Hello from Jenkins </h1>
 <p>Deployed via CI/CD Pipeline on AWS (ECR + ECS)</p>
 ```
+
+
 ## 🔹 6. Create Jenkins Pipeline
 Pipeline stages:  
 	•	Build Docker image  
